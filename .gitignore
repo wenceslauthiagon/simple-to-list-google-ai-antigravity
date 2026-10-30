@@ -1,0 +1,21 @@
+# Build and IDE outputs
+bin/
+obj/
+*.user
+*.suo
+.vs/
+.vscode/
+
+# Local .NET CLI and NuGet cache in workspace
+.dotnet_cli/
+.nuget_packages/
+
+# Node & Frontend (for stage 2)
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Logs and environment
+*.log
+.env
